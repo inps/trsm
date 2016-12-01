@@ -8,7 +8,11 @@ import org.apache.catalina.Manager;
 import org.apache.catalina.session.StandardSession;
 import org.apache.juli.logging.Log;
 import org.apache.juli.logging.LogFactory;
-
+/**
+ * 
+ * @author 
+ *
+ */
 public class RedisSession extends StandardSession {
 
 	private final Log log = LogFactory.getLog(RedisSession.class);
