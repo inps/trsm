@@ -9,7 +9,11 @@ import org.apache.catalina.connector.Response;
 import org.apache.catalina.valves.ValveBase;
 import org.apache.juli.logging.Log;
 import org.apache.juli.logging.LogFactory;
-
+/**
+ * 
+ * @author
+ *
+ */
 public class RedisSessionHandlerValve extends ValveBase {
 	private final Log log = LogFactory.getLog(RedisSessionManager.class);
 	private RedisSessionManager manager;
