@@ -1,7 +1,7 @@
 
 # trsm
 Tomcat Redis cluster Session Manager
-
+TRSM Support to store session using Redis cluster 
 1.Add content to  tomcat context.xml 
 
 Valve className="cn.inps.trsm.RedisSessionHandlerValve" 
