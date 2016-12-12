@@ -2,10 +2,11 @@
 # trsm
 Tomcat Redis cluster Session Manager
 
-1.Add content to  tomcat context.xml
+1. Add content to  tomcat context.xml
 
-<!--<Valve className="cn.inps.trsm.RedisSessionHandlerValve" />
-<Manager className="cn.inps.trsm.RedisSessionManager" hosts="10.245.5.80:7000,10.245.5.80:7001,10.245.5.80:7002" maxInactiveInterval="60"/>  -->
+
+Valve className="cn.inps.trsm.RedisSessionHandlerValve" 
+Manager className="cn.inps.trsm.RedisSessionManager" hosts="10.245.5.80:7000,10.245.5.80:7001,10.245.5.80:7002" maxInactiveInterval="60"
 
 2. Add jar file to Tomcat
 
