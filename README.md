@@ -9,7 +9,8 @@ Manager className="cn.inps.trsm.RedisSessionManager" hosts="10.245.5.80:7000,10.
 
 2.Add jar file to Tomcat
 
-COPY commons-pool2-2.4.2.jar /usr/local/tomcat/lib/
-COPY jedis-2.8.2.jar /usr/local/tomcat/lib/ 
-COPY tomcat-juli-7.0.27.jar /usr/local/tomcat/lib/ 
-COPY trsm.jar /usr/local/tomcat/lib/ 
+copy commons-pool2-2.4.2.jar
+jedis-2.8.2.jar
+tomcat-juli-7.0.27.jar 
+trsm.jar  to 
+/usr/local/tomcat/lib/ 
