@@ -1,8 +1,7 @@
 
 
 # trsm
-Tomcat Redis cluster Session Manager
-TRSM Support to store session using Redis cluster 
+Tomcat Redis cluster Session Manager support to store session using Redis cluster 
 
 
 1.Add content to  tomcat context.xml 
